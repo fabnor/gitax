@@ -86,7 +86,7 @@ Formatversion: 1
         #            return SysVersionControlSystemFileBased::newBackEnd(SysVersionControlFilebasedBackEndTfs::construct());
         #//<GTX>
         #        case SysVersionControlType::SysVersionControlGitax:
-        #            return SysVersionControlSystemFileBased::newBackEnd(new SysVersionControlFileBased_GTX());
+        #            return SysVersionControlSystemFileBased::newBackEnd(SysVersionControlFileBased_GTX::construct());
         #//</GTX>
         #    }
         #    return null;
